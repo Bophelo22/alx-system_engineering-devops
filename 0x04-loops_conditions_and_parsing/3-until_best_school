@@ -2,8 +2,7 @@
 #The script that displays Best School 10 times.
 
 i=10
-until [ $i -eq 1 ]; 
-do 
+until [ "$i" -eq 0 ]; do 
     echo "Best School";
     ((i--))
 done
